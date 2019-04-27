@@ -1,5 +1,7 @@
 ;; emacs startup script
-;; Place this file in ${HOME}/.emacs
+;; Copy this file as ${HOME}/.emacs, or better still include
+;; it in ${HOME}/.emacs like so:
+;; (load "<PATH TO REPO>/emacsrc/emacsrc.el")
 
 ;; Get rid of the startup screen
 (setq inhibit-startup-screen t)
